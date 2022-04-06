@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+} 
+
+.DivH2{
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+}
+
+h2{
+    font-family: IBM Plex Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.DivUl{
+    display: flex;
+    justify-content: center;
+}
+
+div ul{
+    display: flex;
+    gap: 20px;
+    width: 700px;
+    margin-top: 61px;
+}
+
+div ul li div{
+    width: 160px;    
+}    
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+span{
+    display: flex;
+    justify-content: center;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #9C9C9C;
+}
+.DivA{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;    
+}
+
+button{
+    background-color: black;
+
+    width: 206px;
+    height: 50px;
+    
+    text-align: center;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}

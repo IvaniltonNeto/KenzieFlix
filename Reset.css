@@ -1,0 +1,12 @@
+body, section, article, main, aside, footer, img, na, ul, li, a, h1, h2, h3, h4, h5, h6, div,p, figure, figcapiton{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+ol, ul{
+    list-style: none;
+}
